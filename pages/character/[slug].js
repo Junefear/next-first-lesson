@@ -12,7 +12,7 @@ function CharacterDetail({ character }) {
             </Head>
             <h1>{character.name}</h1>
             <figure>
-                <img src={character.image} />
+                <img className='w-50' src={character.image} />
             </figure>
 
 

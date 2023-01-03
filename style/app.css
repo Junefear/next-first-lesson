@@ -1,3 +1,26 @@
 body {
     color: red;
+    text-align: center;
+}
+
+ul {
+    margin-bottom: 200px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+}
+ul li{
+    width: 227.5px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #bdbdbd;
+}
+img{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
 }
